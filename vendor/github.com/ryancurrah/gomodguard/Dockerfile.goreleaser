@@ -1,5 +1,5 @@
 # ---- App container
-FROM golang:alpine
+FROM golang:1.24.0-alpine3.21
 WORKDIR /
 RUN apk --no-cache add ca-certificates
 COPY gomodguard /gomodguard
